@@ -42,24 +42,27 @@ a:hover{
 	color: #5A67D8
 }
 
-.overview-hero > .container {
+.overview-hero {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-content: center;
 	background-color: #E2E8F0;
+	height: 300px;
+	align-items: center;
 }
 
 .overview-hero img {
+	float: left;
 	width: 150px;
 	height: 150px;
-	color: #E2E8F0;
+	color: transparent;
+	margin-right: 50px;
 }
+
 
 .learn-about .container	{
 	display: grid;
 	grid-template-areas: 'title title tilte'
 	'card card card';
+	margin-bottom: 20px;
 }
 	
 .learn-about h2{
@@ -114,38 +117,103 @@ a:hover{
 	margin-top: 1px;
 }
 
+
 .testing {
 	background-color: #4A5568;
+	height: 300px ;
 	color: white;
 }
 
-.testing > a {
+.testing .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cta {
 	background-color: #48BB78;
 	border-radius:5px;
+	width: 150px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+
+.stories .container {
+	display: flex;
+	flex-flow: column wrap;
+	margin-bottom: 40px;
 }
 
 .stories h2, .stories a{
 	color: #5A67D8
 }
 
+.stories h2 {
+	padding-left: 25px;
+}
+
+.stories img {
+	float: left;
+	width: 175px;
+	height: 175px;
+	border-radius: 100px;
+	margin-right: 50px;
+}
+
 .article-body h3 {
 	font-size: 18px;
 }
 
-.article-body img {
-	border-radius: 70px;
+article {
+	margin: 20px;
 }
 
 .newsletter {
 	background-color: #48BB78;
 	color: white;
+	height: 250px;
+	margin-bottom: 0px;
+}
+
+.newsletter .container{
+	display: flex;
+	flex-flow: column wrap;
+	align-items:center;
+	justify-content: center;	
+	align-content: center;
+	padding: 20px;
+	margin-bottom: 0px;
 }
 
 .newsletter button {
 	background-color: #5A67D8;
+	width: 100px;
+	height: 42px;
+	border-style: none;
+	border-radius: 3px;
+}
+
+form {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+input {
+	width: 250px;
+	height: 40px;
+	margin-right: 10px;
+	border-style: none;
+	border-radius: 3px;
 }
 
 footer {
 	background-color: #4A5568;
 	color: white;
+	height: 60px;
+	margin-top: 0px;
+	padding-top: 15px;
 }
+
+
