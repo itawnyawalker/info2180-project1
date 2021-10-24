@@ -38,7 +38,7 @@ a{
 	color: #6b7280;
 }
 
-a:hover{
+header a:hover{
 	color: #5A67D8
 }
 
@@ -51,8 +51,8 @@ a:hover{
 
 .overview-hero img {
 	float: left;
-	width: 150px;
-	height: 150px;
+	width: 180px;
+	height: 160px;
 	color: transparent;
 	margin-right: 50px;
 }
@@ -137,11 +137,11 @@ a:hover{
 	border-radius:5px;
 	width: 180px;
 	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.cta a {
-	color: white;
-}
 
 .testing-desciption{
 	width: 65%;
@@ -214,6 +214,14 @@ input {
 	margin-right: 10px;
 	border-style: none;
 	border-radius: 3px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+.cta a, button {
+	color: white;
 }
 
 footer {
